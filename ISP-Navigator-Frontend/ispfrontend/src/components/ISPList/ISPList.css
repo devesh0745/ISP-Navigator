@@ -1,0 +1,101 @@
+/*
+#main-div {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 50%;
+    
+}
+
+#isp-list-heading {
+    text-align: center;
+}
+
+#isp-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    border: 2px solid rgb(101, 105, 101);
+    margin: 2%;
+}
+
+#isp-list:hover {
+    background-color: #f0f0f0;
+}
+
+#isp-name{
+    margin:0;
+    margin-right: 0;
+}
+#isp-price {
+    margin: 0;
+}
+
+#isp-name {
+    flex: 1;
+    font-weight: bold;
+}
+
+#isp-price {
+    margin-left: 20px;
+}
+*/
+
+#list-details{
+    display:flex;
+    border: 1px solid gainsboro;
+    margin: 2%;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+
+#main-div {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 50%;
+}
+
+#isp-list-heading {
+    text-align: center;
+
+}
+
+#isp-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#isp-name{
+    margin: 0;
+}
+#isp-price {
+    padding-left: 0;
+    margin:0;
+}
+
+#isp-details-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#isp-details-btn:hover {
+    background-color: #0056b3;
+}
+#isp-price-details-btn{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
